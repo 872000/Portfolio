@@ -15,14 +15,14 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Software Engineering Intern</h4>
+                <h4>Software Developer</h4>
                 <h5>MCCSS - CYSSC</h5>
               </div>
               <h3>2025</h3>
             </div>
             <p>
-              Designed and deployed Java integration modules processing 10,000+ daily API
-              calls with 30% improved efficiency. Implemented JSON data exchange services.
+              Engineered backend components for the Child Protection Information Network (CPIN)
+              supporting thousands of daily case processing workflows using Java and Spring.
             </p>
           </div>
           <div className="career-info-box">
@@ -34,8 +34,21 @@ const Career = () => {
               <h3>2022-24</h3>
             </div>
             <p>
-              Analyzed 10,000+ daily events to identify system bottlenecks improving
-              throughput by 20%. Partnered with teams resolving platform incidents.
+              Monitored high-volume operational workflows supporting 10,000+ daily events.
+              Diagnosed process inefficiencies contributing to 20% improvement in efficiency.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Freelance Web Developer</h4>
+                <h5>Self-Employed</h5>
+              </div>
+              <h3>2020-21</h3>
+            </div>
+            <p>
+              Developed custom full-stack web applications for local businesses using React,
+              Node.js, and SQL, enabling digital booking and inventory tracking.
             </p>
           </div>
           <div className="career-info-box">
@@ -47,8 +60,8 @@ const Career = () => {
               <h3>2022-25</h3>
             </div>
             <p>
-              Maintained GPA: 3.8 while completing advanced coursework in distributed
-              systems, cloud computing, and software architecture.
+              Capstone: WalkinWatch (100% Evaluation). Delivered a real-time clinic queue
+              and token management platform using React, Node.js, WebSockets, and PostgreSQL.
             </p>
           </div>
         </div>

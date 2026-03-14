@@ -7,19 +7,19 @@ const projects = [
   {
     title: "WalkinWatch",
     category: "Real-Time Integration & Onboarding Platform",
-    tools: "Java, REST, PostgreSQL",
+    tools: "React, Node.js, WebSockets, PostgreSQL",
     image: "/images/Solidx.png",
   },
   {
-    title: "CPIN",
-    category: "AI Workflow Automation",
+    title: "FlowSync Engine",
+    category: "Distributed Queue Simulator",
     tools: "Python, LLM APIs, Validation Pipelines",
     image: "/images/radix.png",
   },
   {
     title: "SportSense",
     category: "Case Management Interface",
-    tools: "React, REST, SQL",
+    tools: "React, REST APIs, SQL",
     image: "/images/bond.png",
   },
 ];

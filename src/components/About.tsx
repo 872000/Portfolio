@@ -6,10 +6,12 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Engineer Java-based integration systems supporting 10,000+ daily
-          transactions while reducing API latency. Experienced in advancing
-          education-focused technology platforms. Proficient in implementing
-          standardized REST and SQL data exchange workflows.
+          Software developer specializing in distributed backend systems, real-time event
+          processing, and scalable API architecture using Java, Python, and JavaScript.
+          Builds production-grade services supporting 10,000+ daily transactions while
+          improving performance, reliability, and system throughput in regulated environments.
+          Delivers full-stack applications using React, RESTful APIs, relational
+          databases, and event-driven architectures.
         </p>
       </div>
     </div>
