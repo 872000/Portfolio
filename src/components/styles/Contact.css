@@ -59,6 +59,52 @@ a.contact-social {
   opacity: 0.5;
 }
 
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 15px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  font-family: inherit;
+  font-size: 16px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.contact-form textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: var(--accentColor);
+}
+
+.contact-form button {
+  padding: 15px 30px;
+  background-color: var(--accentColor);
+  color: #0a0e17;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.contact-form button:hover {
+  opacity: 0.8;
+}
+
 @media only screen and (max-width: 1600px) {
   .contact-section h3 {
     font-size: 50px;

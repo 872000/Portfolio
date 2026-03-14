@@ -6,20 +6,24 @@ const Contact = () => {
     <div className="contact-section section-container" id="contact">
       <div className="contact-container">
         <h3>Contact</h3>
-        <div className="contact-flex">
-          <div className="contact-box">
-            <h4>Status</h4>
-            <p>Available for opportunities</p>
-            <h4>Education</h4>
-            <p>BSc in Computer Science</p>
+        <div className="contact-flex" style={{ flexDirection: 'column', alignItems: 'center', gap: '60px', textAlign: 'center' }}>
+          <div className="contact-box" style={{ width: '100%', maxWidth: '500px' }}>
+            <form action="https://formsubmit.co/parthmanchanda870@gmail.com" method="POST" className="contact-form">
+              <input type="text" name="name" placeholder="Name" required />
+              <input type="email" name="email" placeholder="Email" required />
+              <textarea name="message" placeholder="Message" required></textarea>
+              <input type="hidden" name="_subject" value="New Portfolio Contact Message!" />
+              <input type="text" name="_honey" style={{ display: 'none' }} />
+              <button type="submit">Send Message</button>
+            </form>
           </div>
 
           <div className="contact-box">
             <h2>
               Designed and Developed <br /> by <span>Parth Manchanda</span>
             </h2>
-            <h5>
-              <MdCopyright /> 2025
+            <h5 style={{ justifyContent: 'center' }}>
+              <MdCopyright /> 2026
             </h5>
           </div>
         </div>

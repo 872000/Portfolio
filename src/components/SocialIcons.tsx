@@ -2,6 +2,7 @@ import {
   FaGithub,
   FaLinkedinIn,
 } from "react-icons/fa6";
+import { SiGmail } from "react-icons/si";
 import "./styles/SocialIcons.css";
 import { TbNotes } from "react-icons/tb";
 import { useEffect } from "react";
@@ -57,6 +58,11 @@ const SocialIcons = () => {
   return (
     <div className="icons-section">
       <div className="social-icons" data-cursor="icons" id="social">
+        <span>
+          <a href="mailto:parthmanchanda870@gmail.com">
+            <SiGmail />
+          </a>
+        </span>
         <span>
           <a href="https://github.com/872000?tab=repositories" target="_blank">
             <FaGithub />
