@@ -1,4 +1,4 @@
-import { MdArrowOutward, MdCopyright } from "react-icons/md";
+import { MdCopyright } from "react-icons/md";
 import "./styles/Contact.css";
 
 const Contact = () => {
@@ -13,25 +13,7 @@ const Contact = () => {
             <h4>Education</h4>
             <p>BSc in Computer Science</p>
           </div>
-          <div className="contact-box">
-            <h4>Social</h4>
-            <a
-              href="https://github.com/872000?tab=repositories"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Github <MdArrowOutward />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/parth-manchanda0872000/"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Linkedin <MdArrowOutward />
-            </a>
-          </div>
+
           <div className="contact-box">
             <h2>
               Designed and Developed <br /> by <span>Parth Manchanda</span>
